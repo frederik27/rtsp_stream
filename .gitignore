@@ -5,3 +5,4 @@ videos
 frames
 *.mp4
 *.jpg
+record_daemon.py
