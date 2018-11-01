@@ -8,6 +8,10 @@
     <title>Document</title>
 </head>
 <body>
-<h1>Hello, There!</h1>
+<form method="post" action="{{ url_for('camera_link') }}">
+    <input type="text" name="url">
+    <button type="submit">ОК</button>
+</form>
+<img src="{{ url_for('stream_data') }}">
 </body>
 </html>
