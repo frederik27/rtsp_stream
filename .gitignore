@@ -6,3 +6,4 @@ frames
 *.mp4
 *.jpg
 record_daemon.py
+rtspenv
